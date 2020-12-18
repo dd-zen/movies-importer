@@ -1,0 +1,5 @@
+services:
+  movie_importer.manager:
+    class: Drupal\movie_importer\MovieImporterManager
+    arguments: ['@entity_type.manager']
+

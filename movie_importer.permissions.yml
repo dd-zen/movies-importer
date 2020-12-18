@@ -1,0 +1,3 @@
+administer movie_importer module:
+  title: 'Administer Movie Importer module'
+  description: 'Allows users to administer movie importer module'

@@ -1,0 +1,11 @@
+movie_importer.admin_config:
+  title: 'Movie Importer'
+  route_name: movie_importer.admin_config
+  parent: system.admin_config
+  weigth: 1
+
+movie_importer.import_form:
+  title: 'Import Movies'
+  route_name: movie_importer.import_form
+  parent: movie_importer.admin_config
+  weigth: 1

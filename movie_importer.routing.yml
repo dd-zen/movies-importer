@@ -1,0 +1,15 @@
+movie_importer.admin_config:
+  path: '/admin/config/movie-importer'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Movie Importer'
+  requirements:
+    _permission: 'administer site configuration'
+
+movie_importer.import_form:
+  path: '/admin/config/movie-importer/import-movies'
+  defaults:
+    _form: '\Drupal\movie_importer\Form\MovieImporterForm'
+    _title: 'Import Movies'
+  requirements:
+    _permission: 'administer movie_importer module'

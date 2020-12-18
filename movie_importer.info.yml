@@ -1,0 +1,5 @@
+name: 'Movie importer'
+description: 'Provides functionality for importing movies from the CSV file'
+type: module
+core: 8.x
+package: custom
